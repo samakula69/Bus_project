@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sama.css">
+    <title>Bus services</title>
+</head>
+<body class="code">
+    <nav>
+        <div class="logo">
+            <h1>Amma<span>Travels</span></h1>
+        </div>
+        <div class="links">
+            <div class="link"><a href="">Home</a></div>
+            <div class="link"><a href="https://tsrtcparcel.in/lander">Services</a></div>
+            <div class="link"><a href="http://127.0.0.1:5500/contact/contact%20_us.html">Contact</a></div>
+            <div class="link"><a href="https://tourism.telangana.gov.in/home">Tousim Plans</a></div>
+           
+        </div>
+        <div class="key">
+            <div class="link"><a href="http://127.0.0.1:5500/design/prj.html"><button>Login</button></a>
+        </div>
+    </nav>
+    </body>
+    <section>
+        <div class="content">
+            <h1 style="color: aqua;">Hearty welcome  </h1>
+            <h2 style="color: aqua;">  To  <span> Amma Travels</span></h2>
+            <p style="color: black;">There's something about being on a bus that brings people together. You're all in it together, 
+                sharing the same cramped space and the same journey</p>
+            <div class="main-btn">
+                <a href="https://www.tsrtconline.in/oprs-web/"><button style="background-color:aqua;" >BOOK YOUR TICKETS</button></div></a>
+        </div>
+    </section>
+</body>
+</html>
