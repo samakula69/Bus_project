@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body.code{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+    box-shadow:black;
+}
+nav.logo{
+    font-size: 1.5rem;
+}
+nav.logo span{
+    color: rgb(7,113,219)
+}
+.links{
+    display: flex;
+}
+.link a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    transition: 0.3s linear;
+}
+.links.link a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(7,113,219)
+}
+.links.link.link a:hover::before,
+links.link a:hover{
+    width: 100%;
+    color: rdb(7,113,219)
+}
+.nav.key{
+    width: 250px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key.frd{
+    margin: 0 5px;
+    width: 100%;
+    height: 5vh;
+}
+
+.key.frd{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: white;
+    border-radius: 5px;
+    background-color: rgd(7,113,219);
+    transition: 0.2s linear;
+}
+.key.frd:hover{
+    color: rgb(7,113,219);
+    border: 3px solid rgb(7,113,219);
+    background-color: white;
+}
+
+section{
+    width: 100%;
+    height: 250hv;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.content{
+    margin-top: 5%;
+    margin-left: 10%;
+    width:40%;
+    color: white;
+}
+.content h1{
+    font-size: 4rem;
+    text-shadow: 0 0 7px white;
+}
+
+.content h2{
+    font-size: 4rem;
+    text-shadow: 0 0 7px white;
+}
+
+.content h2 span{
+    color: rgb(7,113,219);
+    text-shadow: 2px 2px 3px rgb(7,113,219);
+}
+
+.content p{
+    width: 60%;
+    margin: 10px 0;
+}
+
+
+
